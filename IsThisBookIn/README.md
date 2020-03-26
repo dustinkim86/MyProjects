@@ -3,7 +3,7 @@
 - 알라딘 오프라인 중고서점 재고보유 알림 시스템
 - 제작 기간 : 2020/03/02 ~ 
 
-  ![image](https://user-images.githubusercontent.com/52812181/77632003-b9b76880-6f90-11ea-890b-337f13cb4b85.png)
+  ![login](https://user-images.githubusercontent.com/52812181/77646494-fc386f80-6fa7-11ea-82e6-625613f6b322.png)
 
 <br/>
 
@@ -194,4 +194,38 @@
   - ~~회원가입시 받았던 휴대전화번호로 알림 발송~~ 회원가입시 인스타그램에서 사용하는 이름을 입력하도록 변경하고 휴대전화번호 대신 생년월일을 입력하도록 한다. 그리고 해당 Column의 Unique 속성을 제외
   - 인스타그램 API와 APScheduler를 이용하여 알림 서비스 구성. 해당 파일 heroku 배포
     - **문제점 발생** : 로컬 실행 시 문제 없이 잘 전송되나, 서버(Heroku, GCP 등)에서 실행 시 API 내부 direct_message() 함수 실행 안됨
-  - 로컬 컴퓨터의 스케쥴러 또는 라즈베리파이를 이용해 자동 DM발송 예정
+  - 로컬 컴퓨터의 스케쥴러 또는 라즈베리파이를 이용해 자동 DM발송 
+
+
+<br/>
+
+## 결과물
+
+- Main Page(데스크탑 화면)  
+
+  ![maincom](https://user-images.githubusercontent.com/52812181/77646630-43266500-6fa8-11ea-8df6-7f7d7abf2438.png)
+
+<br/>
+
+- Main Page(모바일 화면)  
+
+  <img src="https://user-images.githubusercontent.com/52812181/77647436-c2686880-6fa9-11ea-89fc-0ff9ba17da79.png" width="350" height="600">
+
+
+<br/>
+
+- Keyword Page(데스크탑 화면)  
+
+  ![keywordcom](https://user-images.githubusercontent.com/52812181/77646852-afa16400-6fa8-11ea-9faf-717261635fca.png)
+
+<br/>
+
+- Keyword Page(모바일 화면)  
+
+  <img src="https://user-images.githubusercontent.com/52812181/77646932-d790c780-6fa8-11ea-9833-c4e6af10bc9c.png" width="350" height="600">
+
+<br/>
+
+- Join on Page  
+
+  <img src="https://user-images.githubusercontent.com/52812181/77646968-f0997880-6fa8-11ea-993f-8fe1bb29d8f1.png" width="600" height="750">
