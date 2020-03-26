@@ -229,3 +229,9 @@
 - Join on Page  
 
   <img src="https://user-images.githubusercontent.com/52812181/77646968-f0997880-6fa8-11ea-993f-8fe1bb29d8f1.png" width="600" height="750">
+
+<br/>
+
+- 처음 사용자 가이드 팝업  
+
+  <img src="https://user-images.githubusercontent.com/52812181/77647634-1bd09780-6faa-11ea-81cc-dbc1d8447679.png" width="600" height="750">
