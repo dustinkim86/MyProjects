@@ -66,13 +66,13 @@ itbi
   ┖ firstGuide.html		# '처음 사용자를 위한 가이드' 출력
   ┖ joinOnPage.html		# 회원가입 페이지 구성
   ┖ joininPage.html		# 로그인 페이지 구성
-  ┖ keywordPage.html			# 키워드 관리 페이지 구성
+  ┖ keywordPage.html		# 키워드 관리 페이지 구성
   ┖ mainPage.html		# 검색 페이지 구성
 Procfile			# heroku ps 할당
 app.py				# 플라스크 실행 파일 
 app.yaml
 instadm.py			# 인스타그램 DM 실행 파일
-requirements.txt			# 필요한 라이브러리 모음
+requirements.txt		# 필요한 라이브러리 모음
 runtime.txt			# 실행파일 파이썬 버전
 ```
 
