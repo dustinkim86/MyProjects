@@ -39,6 +39,8 @@
 
 <img src="https://user-images.githubusercontent.com/52812181/77739773-7541d080-7055-11ea-8d91-805b6b6a2a7b.png" width="300" height="300">
 
+
+#### 자료 출처 : [오픈서베이 H&B 스토어 트렌드 2019](https://github.com/dustinkim86/MyProjects/blob/master/Health%26Bueaty%20Store%20%20%EB%8F%85%EC%A0%90%20%EB%8C%80%EC%9D%91%20%EA%B2%BD%EC%9F%81%EC%82%AC%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95/%EC%98%A4%ED%94%88%EC%84%9C%EB%B2%A0%EC%9D%B4%20h%26b%20%EC%8A%A4%ED%86%A0%EC%96%B4%ED%8A%B8%EB%A0%8C%EB%93%9C_2019.pdf)
 <br/>
 
 ## 예측 결론
