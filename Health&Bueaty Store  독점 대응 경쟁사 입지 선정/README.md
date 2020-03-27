@@ -190,7 +190,7 @@
 
   - 총 생활인구와 여성15~39세 인구의 다중공선성이 의심됨
 
-    <img src="https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png" width="700" height="650">
+    <img src="https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png" width="700" height="550">
 
   - 다중공선성 확인 : 굉장히 높은 다중공선성이 확인되어 여성15~39세 인구 변수 제외
 
@@ -198,7 +198,7 @@
 
 - 종속 : 총 매장 수 / 독립 : 여성15~39세 인구를 제외한 모든 변수
 
-  <img src="https://user-images.githubusercontent.com/52812181/77782804-30d92380-709b-11ea-9627-093424ef45e5.png" wigth="700" height="650">
+  <img src="https://user-images.githubusercontent.com/52812181/77782804-30d92380-709b-11ea-9627-093424ef45e5.png" wigth="600" height="550">
 
 
 
@@ -218,7 +218,7 @@
 
   - 총 매장 수 대비 총 생활인구가 많은 곳이 경쟁사가 들어가기 좋은 곳으로 판단
 
-    ![image](https://user-images.githubusercontent.com/52812181/77785000-d5109980-709e-11ea-986b-b2e07ee832be.png)
+    <img src="https://user-images.githubusercontent.com/52812181/77785000-d5109980-709e-11ea-986b-b2e07ee832be.png" width="700" height="500">
 
 
 
@@ -236,7 +236,7 @@
   
     - 녹색 집단 행정동
   
-      ![제목 없음](https://user-images.githubusercontent.com/52812181/77789355-35efa000-70a6-11ea-982e-0476df882488.png)
+      <img src="https://user-images.githubusercontent.com/52812181/77789355-35efa000-70a6-11ea-982e-0476df882488.png" width="700" height="500">
 
 
 
