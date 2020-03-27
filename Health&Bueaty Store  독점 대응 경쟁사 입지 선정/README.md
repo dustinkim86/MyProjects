@@ -190,7 +190,7 @@
 
   - 총 생활인구와 여성15~39세 인구의 다중공선성이 의심됨
 
-    ![image](https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png)
+    <img src="https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png" width="700" height="650">
 
   - 다중공선성 확인 : 굉장히 높은 다중공선성이 확인되어 여성15~39세 인구 변수 제외
 
@@ -198,7 +198,7 @@
 
 - 종속 : 총 매장 수 / 독립 : 여성15~39세 인구를 제외한 모든 변수
 
-  ![image](https://user-images.githubusercontent.com/52812181/77782804-30d92380-709b-11ea-9627-093424ef45e5.png)
+  <img src="https://user-images.githubusercontent.com/52812181/77782804-30d92380-709b-11ea-9627-093424ef45e5.png" wigth="700" height="650">
 
 
 
