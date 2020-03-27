@@ -87,7 +87,7 @@
   - 블로그 텍스트마이닝(단위 : 브랜드별)
   - SNS 사진 크롤링(단위 : 브랜드별)
 
-- **자료 : [Datasets]([https://github.com/dustinkim86/MyProjects/tree/master/Health%26Bueaty%20Store%20%20%EB%8F%85%EC%A0%90%20%EB%8C%80%EC%9D%91%20%EA%B2%BD%EC%9F%81%EC%82%AC%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95/Datasets](https://github.com/dustinkim86/MyProjects/tree/master/Health%26Bueaty Store  독점 대응 경쟁사 입지 선정/Datasets))**
+- **자료 : [Datasets](https://github.com/dustinkim86/MyProjects/tree/master/Health%26Bueaty%20Store%20%20%EB%8F%85%EC%A0%90%20%EB%8C%80%EC%9D%91%20%EA%B2%BD%EC%9F%81%EC%82%AC%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95/Datasets)**
 
 <br/>
 
@@ -105,7 +105,7 @@
 
 ## 데이터 전처리
 
-#### R 이용 [Source]([https://github.com/dustinkim86/MyProjects/blob/master/Health%26Bueaty%20Store%20%20%EB%8F%85%EC%A0%90%20%EB%8C%80%EC%9D%91%20%EA%B2%BD%EC%9F%81%EC%82%AC%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95/Scripts/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.R](https://github.com/dustinkim86/MyProjects/blob/master/Health%26Bueaty Store  독점 대응 경쟁사 입지 선정/Scripts/데이터 전처리.R))
+#### R 이용 [Source](https://github.com/dustinkim86/MyProjects/blob/master/Health%26Bueaty%20Store%20%20%EB%8F%85%EC%A0%90%20%EB%8C%80%EC%9D%91%20%EA%B2%BD%EC%9F%81%EC%82%AC%20%EC%9E%85%EC%A7%80%20%EC%84%A0%EC%A0%95/Scripts/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.R)
 
 - 각 브랜드별 매장 / 학교 위치 데이터 GIS 변환 및 행정동별 갯수 Count
 
