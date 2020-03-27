@@ -190,7 +190,7 @@
 
   - 총 생활인구와 여성15~39세 인구의 다중공선성이 의심됨
 
-  ![image](https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png)
+    ![image](https://user-images.githubusercontent.com/52812181/77782270-5b76ac80-709a-11ea-9525-409be722d18d.png)
 
   - 다중공선성 확인 : 굉장히 높은 다중공선성이 확인되어 여성15~39세 인구 변수 제외
 
@@ -204,7 +204,9 @@
 
 - **단순 선형회귀**
   
-- 총 매장 수와 총 생활인구, 여성인구, 임대료 각각의 상관관계 확인![제목 없음](https://user-images.githubusercontent.com/52812181/77783651-97ab0c80-709c-11ea-82a0-a1ff8140d407.png)
+- 총 매장 수와 총 생활인구, 여성인구, 임대료 각각의 상관관계 확인
+  
+  ![제목 없음](https://user-images.githubusercontent.com/52812181/77783651-97ab0c80-709c-11ea-82a0-a1ff8140d407.png)
   
 - 총 매장 수 대비 총 생활인구
 
@@ -234,7 +236,7 @@
   
     - 녹색 집단 행정동
   
-    ![제목 없음](https://user-images.githubusercontent.com/52812181/77789355-35efa000-70a6-11ea-982e-0476df882488.png)
+      ![제목 없음](https://user-images.githubusercontent.com/52812181/77789355-35efa000-70a6-11ea-982e-0476df882488.png)
 
 
 
@@ -244,19 +246,19 @@
 
   - 검정 결과 p-value가 0.05보다 크므로 귀무가설 채택, 임대료와 집단분류는 등분산성을 띄고 있음
 
-  <img src="https://user-images.githubusercontent.com/52812181/77790437-36893600-70a8-11ea-8a9a-66e7c2a364e9.png" width="600" height="150">
+    <img src="https://user-images.githubusercontent.com/52812181/77790437-36893600-70a8-11ea-8a9a-66e7c2a364e9.png" width="600" height="150">
 
 - Oneway ANOVA
 
   - 임대료는 집단분류에 대해 평균의 차이가 통계적으로 유의하나, 높은 상관성을 띄지는 않음
 
-  <img src="https://user-images.githubusercontent.com/52812181/77793868-3855f800-70ae-11ea-8c58-935093a5679a.png" width="700" height="200">
+    <img src="https://user-images.githubusercontent.com/52812181/77793868-3855f800-70ae-11ea-8c58-935093a5679a.png" width="700" height="200">
 
 - 사후 검정
   - 1번 그룹 : 올리브영 / 2번 그룹 : 랄라블라 / 3번 그룹 : 롭스
   - 올리브영은 임대료가 가장 높은 행정동을 선호하며, 랄라블라도 비슷하나 올리브영 보다는 상대적으로 낮은 임대료를 선호한다. 롭스는 가장 임대료가 저렴한 곳을 선호
 
-​		<img src="https://user-images.githubusercontent.com/52812181/77793951-650a0f80-70ae-11ea-9e5b-b009082030fb.png" width="700" height="600">	
+    <img src="https://user-images.githubusercontent.com/52812181/77793951-650a0f80-70ae-11ea-9e5b-b009082030fb.png" width="700" height="600">	
 
 
 
@@ -272,7 +274,9 @@
 
     ![image](https://user-images.githubusercontent.com/52812181/77797874-2f1c5980-70b5-11ea-81e1-77a6ec5ca5f3.png)
 
-  - 롭스![image](https://user-images.githubusercontent.com/52812181/77797977-5f63f800-70b5-11ea-95d8-17a16674b195.png)
+  - 롭스
+    
+    ![image](https://user-images.githubusercontent.com/52812181/77797977-5f63f800-70b5-11ea-95d8-17a16674b195.png)
 
   - 랄라블라
 
