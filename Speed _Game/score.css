@@ -1,0 +1,36 @@
+* { /* 페이지 전체 초기화 및 font 설정 */
+    margin: 0; padding: 0;
+    font-family: 'Jua', sans-serif;
+} 
+#score_section { /* 게임결과 화면 설정 */
+    position: relative; /* 상대위치 설정 */
+    margin: 50px 0 0 30px; /* 외부 상단50px 좌측30px 벌리기 */
+    width: 500px; /* 가로500px */
+    text-align: center; /* 글씨 가운데 정렬 */
+    background-color: rgba(230, 227, 227, 0.884); /* 배경색 설정 */
+    border: 2px solid black; /* 테두리 설정 : 두께, 선 종류, 색상 */
+}
+#user_score { /* 소요시간 스타일 설정 */
+    font-size: 4em; /* 글씨 크기 4배 */
+    font-weight: bold; /* 글씨 두껍게 */
+    color: blue; /* 글씨 색상 */
+}
+p { /* 상단 본문 설정 */
+    font-size: 20px; /* 글씨 크기 */
+    padding: 10px; /* 내부 10px 늘림 */
+}
+#return_section { /* 난이도 선택 하이퍼링크 box 설정 */
+    position: relative; /* 상대위치 설정 */
+    margin: 300px 0 0 210px; /* 외부로부터 상단300px 좌측210px 벌림 */
+    width: 200px; /* 가로길이 */
+    bottom: 270px; /* 하단으로부터 270px */
+}
+a { /* 난이도 선택 하이퍼링크 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-size: 18px; /* 글씨 크기 */
+    color: darkred; /* 글씨 색상 */
+    font-weight: bold; /* 글씨 두껍게 */
+    background-color: gold; /* 배경색 설정 */
+    padding: 10px; /* 내부로부터 10px */
+    border-radius: 25px; /* 테두리 둥글게(25px 만큼) */
+}

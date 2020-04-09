@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1,maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>난이도 선택</title>
+    <!-- Font Load -->
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        * { /* html 전체 정렬 */
+            margin: 0; padding: 0;
+            font-family: 'Jua', sans-serif; /* Font 설정 */
+        }
+         h1 { /* 제목 속성 */
+             position: relative; /* 상대위치 설정 */
+             left: 30px; /* 좌측으로부터 30px 오른쪽으로 */
+             font-size: 3em; /* font 크기 3배 */
+         }
+        #choice > * { /* 선택부분 하위 설정 */
+            position: relative; /* 상대위치 설정 */
+            display: inline-block; /* 한줄에 블럭형태로 설정 */
+            padding: 20px; /* 내부 전체 20px 늘이기 */
+        }
+        button {
+            position: relative; /* 상대위치 설정 */
+            text-align: center; /* 글씨 가운데 정렬 */
+            font-size: 3em; /* font 크기 3배 */
+            background-color: gold; /* 버튼 배경색 설정 */
+            padding: 30px; /* 내부 전체 30px 늘이기 */
+            opacity: 0.8; /* 투명도 80% */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>==== 난 이 도 &nbsp;&nbsp;선 택 ====</h1>
+    </div>
+    <div id="choice"> <!-- 난이도에 따른 배열 모드 설정 function 전달 -->
+        <div><button id="easy" onclick=choice_mode(4)>쉬움</button></div>
+        <div><button id="medium" onclick=choice_mode(6)>보통</button></div>
+        <div><button id="difficult" onclick=choice_mode(8)>어려움</button></div>
+    </div>
+    <script>
+        /* 전달받은 function 실행 */
+        function choice_mode(number){
+            /* 난이도별 숫자 설정 */
+            var mode_num = number;
+            /* main.html 페이지로 숫자 전달 */
+            window.open("main.html?choice_mode:"+mode_num);
+            /* 난이도선택 페이지(해당 페이지) 종료 */
+            window.close();
+        }
+    </script>
+</body>
+</html>

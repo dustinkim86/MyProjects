@@ -1,0 +1,46 @@
+* { /* 페이지 전체 초기화 및 font 설정 */
+    margin: 0; padding: 0;
+    font-family: 'Jua', sans-serif;
+}
+#SpeedGame { /* 게임 전체 구역 */
+    position: relative; /* 상대위치 설정 */
+    margin: 60px 0 0 20px; /* 외부 상60px, 좌20px 벌리기 */
+    width: 1000px; /* 전체 가로길이 설정 */
+}
+#game_section .square { /* 버튼 외부 box 설정 */
+    display: inline-block; /* 한줄 블럭으로 설정 */
+    margin: 3px 5px; /* 외부 상하3px, 좌우5px 벌리기 */
+}
+.square button { /* 버튼 설정 */
+    font-size: 3em; /* 글씨 크기 3배 */
+    font-weight: bold; /* 글씨 두껍게 */
+    text-align: center; /* 글씨 가운데 정렬 */
+    padding: 15px 0 0 0; /* 내부 상단15px 늘림 */
+    border : none; /* 테두리 제거 */
+    background-color: lightgreen; /* 배경색 설정 */
+    width: 70px; height: 70px; /* 버튼 사이즈 설정 */
+}
+#ViewTimer { /* 3초 타이머 설정 */
+    color: red; /* 글씨 색상 */
+    font-size: 11em; /* 글씨 크기 11배 */
+    font-weight: bold; /* 글씨 두껍게 */
+    text-align: center; /* 글씨 가운데 정렬 */
+    position: fixed; /* 절대위치 고정 */
+    left: 100px; /* 좌측으로부터 100px */
+    bottom: 60%; /* 하단으로부터 60% */
+    opacity: 0.6; /* 투명도 60% */
+}
+#trueOrFalse { /* 버튼 클릭에 따른 메세지 설정 */
+    color: red; /* 글씨 색상 */
+    font-size: 22px; /* 글씨 크기 22px */
+    position: absolute; /* 절대위치 설정 */
+    top: -1px; /* 상단으로부터 -1px */
+    left: 250px; /* 좌측으로부터 250px */
+}
+#time_out { /* 스톱워치 설정 */
+    position: relative; /* 상대위치 설정 */
+    font-size: 3em; /* 글씨 크기 3배 */
+    color: red; /* 글씨 색상 */
+    left: 100px; /* 좌측으로부터 100px */
+    display: inline; /* 한줄 정렬 */
+}

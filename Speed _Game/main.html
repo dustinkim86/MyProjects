@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1,maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>SPEED GAME</title>
+    <!-- CSS Style Load -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Load -->
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="SpeedGame">
+        <div id="time_section">
+            <!-- 3초 타이머 -->
+            <div id="ViewTimer"></div>
+            <!-- 스톱워치 -->
+            <div id="time_out"></div>
+            <!-- 버튼 클릭에 따른 메시지 출력 -->
+            <div><p id="trueOrFalse"></p></div>
+        </div>
+        <div id="game_section">
+            <!-- 난이도별 배열의 버튼 생성 -->
+            <script>
+                /* 난이도 선택모드에서 전달받은 value 추출 */
+                var temp = location.href.split("?");
+                data = temp[1].split(":");
+                value = data[1];
+                /* value를 이용한 배열 형태 라인 생성 */
+                for (var i = 0; i < Number(value); i++) {
+                    document.write('<div class="lines">');
+                    /* value를 이용한 배열 형태 버튼 박스 생성 및 버튼이벤트 설정 */
+                    /* 각 배열 인덱스를 이용한 id 및 이벤트 value 생성 */
+                    for (var j = 0; j < Number(value); j++) {
+                        square = document.write('<div class="square"><button class="number" id="numbers_'+i+j+'" onclick="click_event(numbers_'+i+j+')"></button></div>');
+                    }
+                document.write('</div>');
+                }
+            </script>
+        </div>
+    </div>
+    <!-- 스크립트 Load -->
+    <script src="main.js"></script>
+</body>
+</html>
