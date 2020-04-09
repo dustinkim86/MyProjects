@@ -202,7 +202,7 @@
 
 3. 감염병 Dataset과 날씨 Dataset 통합
 
-- [Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/for_tot_weather_disease.py](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/for_tot_weather_disease.py))
+- [Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/for_tot_weather_disease.py)
 
 <br/>
 
@@ -224,7 +224,7 @@
   ![지역별발병률평균비교](https://user-images.githubusercontent.com/52812181/78795648-3108e580-79f0-11ea-811c-7b10a894952f.png)
   
   
-    - 발병률 추이 및 평균 비교 [Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/EDA.py](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/EDA.py))
+    - 발병률 추이 및 평균 비교 [Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/EDA.py)
 
 <br/>
 
@@ -234,7 +234,7 @@
   ![기상기후변수중요도](https://user-images.githubusercontent.com/52812181/78851334-81199380-7a54-11ea-8f4d-df21931d79a6.png)
   
   
-    - [Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/x_importance.py](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/x_importance.py))
+    - [Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/x_importance.py)
 
 - 변수 상관관계 분석(Random Forest) in r
 
@@ -242,7 +242,7 @@
 
     ![[image]](https://user-images.githubusercontent.com/52812181/78870529-3c582180-7a81-11ea-93ab-b9746d09f6fc.png)
 
-  - [Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/randomforest.R](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/randomforest.R))
+  - [Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/randomforest.R)
 
 <br/>
 
@@ -290,9 +290,9 @@
 
   ![image](https://user-images.githubusercontent.com/52812181/78904498-98d63380-7ab7-11ea-9f27-43b86c7746e2.png)
 
-- [GRU Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/GRU.py](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/GRU.py))
+- [GRU Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/GRU.py)
 
-- [LSTM Source 바로가기]([https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/LSTM.py](https://github.com/dustinkim86/MyProjects/blob/master/날씨에 따른 매개 감염병 확산 예측/Scripts/LSTM.py))
+- [LSTM Source 바로가기](https://github.com/dustinkim86/MyProjects/blob/master/%EB%82%A0%EC%94%A8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%A7%A4%EA%B0%9C%20%EA%B0%90%EC%97%BC%EB%B3%91%20%ED%99%95%EC%82%B0%20%EC%98%88%EC%B8%A1/Scripts/LSTM.py)
 
 <br/>
 
