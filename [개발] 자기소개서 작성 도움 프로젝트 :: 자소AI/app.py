@@ -48,7 +48,6 @@ def login():
         chk_empty = cur.fetchone()[0]
         if chk_empty is None:
             return redirect('/signup')
-        session['texts'] = ""
         return redirect(url_for('writeResume'))
     else:
         cur.execute(f'insert into user_tb (email, user_id) values ("{email}","{user_id}")')
@@ -58,7 +57,6 @@ def login():
 
 @app.route("/logout")
 def logout():
-    # session.pop('user_id')
     session.clear()
     return redirect(url_for('index'))
 
@@ -73,13 +71,12 @@ def signup():
         return render_template('signup.html')
     else:
         birthdate = request.form.get('birthdate')
-        birthdate = birthdate[6:] +'-'+ birthdate[3:5] +'-'+ birthdate[:2]
+        birthday = birthdate[6:] +'-'+ birthdate[3:5] +'-'+ birthdate[:2]
         gender = request.form.get('gender')
         classes = request.form.get('classes')
-        cur.execute(f'''update user_tb set birthdate="{birthdate}", gender="{gender}",
+        cur.execute(f'''update user_tb set birthdate="{birthday}", gender="{gender}",
             major="{classes}" where user_id="{user_id}"''')
         conn.commit()
-        session['texts'] = ""
         return redirect(url_for('writeResume'))
 
 
@@ -88,12 +85,12 @@ def writeResume():
     if not session.get('user_id'):
         return render_template('error.html', msg="로그인 후 이용해 주세요.")
     if request.method == 'GET':
-        try:
+        if not session.get("texts") is None:
             sentences = session['texts']
             return render_template('writeResume.html', sentences=sentences)
-        except Exception as ex:
-            print(ex)
-            return redirect('/writeResume')
+        else:
+            session['texts'] = "문장 생성을 위해 자기소개서를 작성해 주세요"
+            return redirect(url_for('writeResume'))
     else:
         texts = request.form.get('DOC_TEXT')
         session['texts'] = texts
@@ -105,21 +102,21 @@ def resumeGen():
     if not session.get('user_id'):
         return render_template('error.html', msg="로그인 후 이용해 주세요.")
     if request.method == 'GET':
-        texts = session['texts']
-        if len(texts) > 200:
-            return render_template('error.html', msg='입력 문장을 조금 더 짧게 조정해주세요.')
-        ctx= 'cpu'
-        cachedir='~/kogpt2/'
-        load_path = './checkpoint/KoGPT2_checkpoint_277500.tar'
-        loops = 6
-        sent_dict = main(temperature=1.1, tmp_sent = texts, text_size = len(texts)/2+40, loops = loops, load_path = load_path)
-        for key, value in sent_dict.items():
-            lst = value.split('.')
-            lst_delete_last = lst[:-1]
-            lst_to_str = ".".join(lst_delete_last) + "."
-            sent_dict[key] = lst_to_str
-        
-        return render_template('resumeGen.html', msg=sent_dict)
+        if not session.get("texts") is None:
+            texts = session['texts']
+            if len(texts) > 100:
+                return render_template('error.html', msg='입력 문장을 조금 더 짧게 조정해주세요.')
+            ctx= 'cpu'
+            cachedir='~/kogpt2/'
+            load_path = './checkpoint/KoGPT2_checkpoint_277500.tar'
+            loops = 6
+            sent_dict = main(temperature=1.1, tmp_sent = texts, text_size = len(texts)/2+40, loops = loops, load_path = load_path)
+            for key, value in sent_dict.items():
+                lst = value.split('.')
+                lst_delete_last = lst[:-1]
+                lst_to_str = ".".join(lst_delete_last) + "."
+                sent_dict[key] = lst_to_str
+            return render_template('resumeGen.html', msg=sent_dict)
     else:
         sentences = request.form.get('sentences')
         session['texts'] = sentences        
