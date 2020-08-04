@@ -8,7 +8,7 @@ from kogpt2.data import Read_Dataset
 import gluonnlp
 from kogpt2.model.sample import sample_sequence
 from tqdm import tqdm
-import subprocess
+import subprocess # 외부 명령어 실행 라이브러리
 from tensorboardX import SummaryWriter
 import re
 
@@ -28,6 +28,7 @@ def get_gpu_memory_map():
 		Keys are device ids as integers.
 		Values are memory usage as integers in MB.
 	"""
+	# subprocess 에서 출력되는 결과값을 문자열 데이터로 사용하고 싶은 경우 check_output 함수를 사용
 	result = subprocess.check_output(
 		[
 			'nvidia-smi', '--query-gpu=memory.used',
@@ -102,13 +103,13 @@ def main(epoch = 200, save_path = './checkpoint/', load_path = './checkpoint/KoG
 	# 추가로 학습하기 위해 .train() 사용
 	kogpt2model.train()
 	vocab_b_obj = gluonnlp.vocab.BERTVocab.from_sentencepiece(vocab_path,
-														 mask_token=None,
-														 sep_token=None,
-														 cls_token=None,
-														 unknown_token='<unk>',
-														 padding_token='<pad>',
-														 bos_token='<s>',
-														 eos_token='</s>')
+								mask_token=None,
+								sep_token=None,
+								cls_token=None,
+								unknown_token='<unk>',
+								padding_token='<pad>',
+								bos_token='<s>',
+								eos_token='</s>')
 
 	tok_path = get_tokenizer()
 	model, vocab = kogpt2model, vocab_b_obj
