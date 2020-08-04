@@ -52,7 +52,7 @@
 			
 			<div id="resume-box" class="col-md-12" style="width:1100px;height:150px;display:block">
 				<div class="row">
-					<span style="color:#aaa;position:relative;left:670px;font-size:17px;" id="counter">(0자/ 최대 200자)</span><br/>
+					<span style="color:#aaa;position:relative;left:670px;font-size:17px;" id="counter">(0자/ 최대 100자)</span><br/>
 					<form method="POST">
 						{% if sentences == 0 %}
 						<textarea style="width:800px;height:70px;border-color:black;resize:none;" id="DOC_TEXT" class="DOC_TEXT" id="userInputText" name="DOC_TEXT" placeholder=" 문장 생성을 위해 자기소개서를 작성해 주세요."></textarea>
@@ -131,12 +131,12 @@
         //서류사항 textarea 체크
         $('#DOC_TEXT').keyup(function (e){
             var content = $(this).val();
-            $('#counter').html("("+content.length+"자 / 최대 200자)");    //글자수 실시간 카운팅
+            $('#counter').html("("+content.length+"자 / 최대 100자)");    //글자수 실시간 카운팅
         
-            if (content.length > 200){
-                alert("최대 200자까지 입력 가능합니다.");
-                $(this).val(content.substring(0, 200));
-                $('#counter').html("(200 / 최대 200자)");
+            if (content.length > 100){
+                alert("최대 100자까지 입력 가능합니다.");
+                $(this).val(content.substring(0, 100));
+                $('#counter').html("(100 / 최대 100자)");
             }
         });
 
